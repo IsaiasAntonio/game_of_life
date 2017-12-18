@@ -11,3 +11,20 @@ function dTable(){
 			
 	}
 }
+
+function generateMatrix()
+{
+	state=new Array(long);
+	for(a=0;a<long;a++){
+        state[a]=new Array(long);
+    }
+		
+}	
+
+function stateFlags(){
+	for(let i=0;i<long;i++){
+        for(let j=0;j<long;j++){
+            document.getElementById(i+","+j).className=estado[i][j];
+        }    
+    }			
+}
