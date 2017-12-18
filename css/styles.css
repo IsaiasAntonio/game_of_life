@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+}
+
+.starto {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+.starto:hover{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
